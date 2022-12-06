@@ -42,7 +42,22 @@ a:hover {
     background-image: url(evian_origins_logo.png);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
+
+.label {
+    color: #E50043;
+    font-size: 100px;
+ }
+
+.big-container {
+    display: flex;
+    justify-content: center;
+    padding:150px 200px;
+    flex-wrap: wrap;
+}
 
  .pink-border {
     width: 1040px;
@@ -53,39 +68,28 @@ a:hover {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
  }
 
- .big-container {
-    display: flex;
-    justify-content: center;
-    padding:150px 200px;
-    flex-wrap: wrap;
-}
-
-.vertical-box1 {
-    margin: 150px 0 42px 0;
-    width: 1040px;
-    display: flex;
-    justify-content: space-between;
+.container-bottle {
+  width: 1040px;
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 0;
 }
 
 .vertical {
-    margin: 150px 0 42 0;
-}
-
-.description-box {
-   width: 1040px;
     display: flex;
-    margin-bottom: 150px;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.description {
-   display: flex;
-  flex-direction: column;
-  align-items: center;
+.par {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
 }
-
+ 
 .glass {
     display: flex;
     justify-content: space-between;
